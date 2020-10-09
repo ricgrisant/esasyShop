@@ -9,7 +9,7 @@
   }
   
   .bg-image {
-    background-image: url(../vendor/img/login.jpg);
+    background-image: url(../vendor/img/loginImg.png);
     background-size: 900px;
   }
   
@@ -115,3 +115,11 @@
       color: #777;
     }
   }
+
+  @media (max-width: 768px) { 
+        .login,
+        .image {
+            min-height: 20vh;
+        }
+  }
+ 
