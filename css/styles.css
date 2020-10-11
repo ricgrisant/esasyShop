@@ -63,6 +63,16 @@ nav{
   background-color: green !important;
 }
 
+.card-header{
+  background-color: #1e7e34 !important;
+  color: white;
+}
+
+.card:hover{
+  border: 1px solid #28a745;
+  box-shadow: 1px 0px 10px 5px #28a745;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
